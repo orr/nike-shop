@@ -41,7 +41,7 @@
     color: black;
 }
 
-.super-header-nav ul li a::after {
+.super-header-nav ul li:not(:last-of-type) a::after  {
     content: '|';
     margin-left: 1rem;
     color: #777676;
