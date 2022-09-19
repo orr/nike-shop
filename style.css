@@ -1,0 +1,48 @@
+:root {
+    --primary: #000000;
+}
+
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000000;
+    list-style: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.super-header {
+    width: 100%;
+    background-color: #F7F7F7;
+    padding: 0 40px;   
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.super-header-left {
+    display: flex;
+    gap: 1rem;
+}
+
+.super-header-nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.super-header-nav ul li a {
+    text-decoration: none;
+    color: #777676;
+    font-size: .8rem;
+}
+
+.super-header-nav ul li a:hover {
+    color: black;
+}
+
+.super-header-nav ul li a::after {
+    content: '|';
+    margin-left: 1rem;
+    color: #777676;
+}
