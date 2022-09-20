@@ -228,5 +228,37 @@
     margin: 1rem 0 1rem 0;
     font-size: 1rem;
     font-weight: normal;
+}
 
+.breadcrumbs ul {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+    padding: 3rem 0 3rem 0;
+    align-items: center;
+    position: relative;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: #777676;
+}
+
+.breadcrumbs a:hover {
+    color: #000;
+}
+
+.breadcrumbs li:not(:last-child)::after {
+    content: '\00a0›';
+    color: #777676;
+    font-size: 1rem;
+    
+}
+
+.main-content {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #777676;
+    height: 400px;
 }
