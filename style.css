@@ -143,9 +143,13 @@
     top: 72px;
     left: 50%;
     transform: translateX(-50%);
-    width: 1000px;
+    width: 100%;
+    
     background-color: white;
     padding: 1rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    z-index: 5;
 }
 
 .sub-menu.close {
@@ -176,4 +180,53 @@
 }
 .sub-menu li {
     margin-bottom: .5rem;
+}
+
+.ofertas {
+    width: 100%;
+    background-color: #F3F3F3;
+}
+
+.ofertas-track {
+    width: 60%;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.icon-next, .icon-prev {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 4;
+}
+
+.icon-left {
+    left: 0;
+}
+.icon-next {
+    right: 0;
+}
+
+.ofertas-track {
+    position: relative;
+}
+
+.ofertas-wrapper {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    transition: all ease-in 500ms;
+}
+
+.ofertas-wrapper p {
+    min-width: 100%;
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+    font-size: 1rem;
+    font-weight: normal;
+
 }
