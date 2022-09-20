@@ -22,3 +22,13 @@ document.querySelector("#nav-header").addEventListener('mouseover', ()=>{
     document.querySelector('.sub-menu').classList.remove('close'); 
     
 });
+
+document.querySelector(".sub-menu").addEventListener('mouseout', ()=>{ 
+    document.querySelector('.sub-menu').classList.add('close'); 
+    
+});
+
+document.querySelector(".sub-menu").addEventListener('mouseover', ()=>{ 
+    document.querySelector('.sub-menu').classList.remove('close'); 
+    
+});
