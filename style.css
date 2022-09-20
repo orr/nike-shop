@@ -53,11 +53,13 @@
     justify-content: space-between;
     padding: 26px 40px;
     align-items: center;
+    position: relative;
 }
 
 .header-ul {
     display: flex;
     gap: 2rem;
+    
 }
 
 
@@ -128,4 +130,47 @@
 .shop-icon {
     width: 26px;
     height: 26  px;
+}
+
+
+.sub-menu {
+    display: flex;
+    column-gap: 3rem;
+    row-gap: 1rem;
+    
+    flex-wrap: wrap;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1000px;
+    background-color: white;
+    padding: 1rem;
+}
+
+.sub-menu.close {
+    display: none;
+}
+
+.open {
+    display: block;
+}
+
+.sub-menu h1 {
+    font-size: 1rem;
+    font-weight: 500;   
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.sub-menu a {
+    color: #777676;
+    text-decoration: none;
+}
+
+.sub-menu a:hover {
+    color: #000;
+}
+.sub-menu li {
+    margin-bottom: .5rem;
 }
