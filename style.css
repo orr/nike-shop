@@ -67,7 +67,7 @@
     padding: .8rem;
 }
 
-.header-ul li:hover{
+.header-ul-li-hover{
     
     border-bottom: 2px solid black;
 }
