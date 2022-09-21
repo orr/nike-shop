@@ -89,3 +89,17 @@ right.addEventListener('click', () => {
         ofertas_wrapper.style.transform= "translateX("+(dx)+"px)";
     }
 });
+
+let mais = document.querySelector('#vermais');
+mais.addEventListener('click',  () => {
+    let details = document.querySelector('.details');
+    if( details.classList.contains('open')) {
+        mais.innerHTML = 'Ver mais detalhes do produto';
+    } else {
+        mais.innerHTML = 'Ver menos';
+        
+    }
+    details.classList.toggle('open');
+    details.classList.toggle('no-after');
+    
+});
