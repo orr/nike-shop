@@ -269,10 +269,12 @@
     flex-flow: wrap;
     gap: 1rem;
     width: 80%;
+    height: min-content;
 }
 
 .big-image {
     width: 48%;
+    max-height: min-content;
 }
 
 .big-image img {
