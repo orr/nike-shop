@@ -133,3 +133,13 @@ sobre.addEventListener('click', () => {
         document.querySelector("#sobre-toggle").style.display = 'none';
     }
 });
+
+let menu = document.querySelector("#menu-icon");
+menu.addEventListener('click', () => {
+    document.querySelector(".mobile-menu").classList.toggle('close');
+});
+
+let close = document.querySelector(".close-icon");
+close.addEventListener('click', () => {
+    document.querySelector(".mobile-menu").classList.toggle('close');
+});
