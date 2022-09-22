@@ -892,6 +892,10 @@ button.add:hover{
     .like-item {
         min-width:  50%;
     }
+    .current-item {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
 }
 
 @media screen and (max-width: 576px){
