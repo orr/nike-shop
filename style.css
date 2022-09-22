@@ -791,11 +791,12 @@ button.add:hover{
     z-index: 10;
     display: flex;
     justify-content: flex-end;
-    transition: all ease-in 200ms;
+    transition: all ease-in 500ms;
 }
 
 .mobile-menu.close {
     right: -3000px;
+    display: none;
 }
 
 .mobile-menu .menu {
