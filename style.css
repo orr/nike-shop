@@ -835,3 +835,10 @@ button.add:hover{
 
 @media screen and (max-width: 576px){
 }
+
+
+@media screen and (max-width: 340px){
+    #input-frete{
+        width: 80%;
+    }
+}
