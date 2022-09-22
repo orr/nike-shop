@@ -825,20 +825,32 @@ button.add:hover{
         width: 100%;
         object-fit: cover;
     }
+    .like-item {
+        min-width:  30%;
+    }
 }
 
 @media screen and (max-width: 768px){
     .ofertas-track {
         width: 100%;
     }
+    .like-item {
+        min-width:  50%;
+    }
 }
 
 @media screen and (max-width: 576px){
+    .like-item {
+        min-width:  50%;
+    }
 }
 
 
 @media screen and (max-width: 340px){
     #input-frete{
         width: 80%;
+    }
+    .like-item {
+        min-width:  100%;
     }
 }
