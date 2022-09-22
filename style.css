@@ -459,3 +459,60 @@ button.add:hover{
     margin-left: 2rem;
     margin-bottom: .7rem;
 }
+
+.outros-detalhes {
+    margin-top: 2rem;
+}
+.outros-detalhes li {
+    
+    list-style: disc;
+    margin-left: 2rem;
+    margin-bottom: .2rem;
+    font-size: .9rem;
+}
+
+.calcular-frete {
+    border-top: 1.2px solid #B6B6B6;
+    border-bottom: 1px solid #B6B6B6;
+    padding: 1rem 0 ;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.frete p {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.input-wrapper{
+    margin: .5rem 0;
+    padding: .5rem 1rem;
+    background-color: white;
+    border: 1px solid #B6B6B6;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-wrapper input{
+    border: none;
+    background-color: white;
+    font-size: 1rem;
+    outline: none;
+}
+
+.input-wrapper button {
+    background-color: #000;
+    color: white;
+    border-radius: 30px;
+    padding: .5rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+}
+
+.duvidas {
+    margin-top: 3rem;
+}
