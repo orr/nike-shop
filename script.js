@@ -111,3 +111,25 @@ mais.addEventListener('click',  () => {
     details.classList.toggle('no-after');
     
 });
+
+let ajuda = document.querySelector("#ajuda");
+ajuda.addEventListener('click', () => {
+    if (ajuda.innerHTML == "+") {
+        ajuda.innerHTML = '-';
+        document.querySelector("#ajuda-toggle").style.display = 'block';
+    } else {
+        ajuda.innerHTML = '+';
+        document.querySelector("#ajuda-toggle").style.display = 'none';
+    }
+});
+
+let sobre = document.querySelector("#sobre");
+sobre.addEventListener('click', () => {
+    if (sobre.innerHTML == "+") {
+        sobre.innerHTML = '-';
+        document.querySelector("#sobre-toggle").style.display = 'block';
+    } else {
+        sobre.innerHTML = '+';
+        document.querySelector("#sobre-toggle").style.display = 'none';
+    }
+});
