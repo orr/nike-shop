@@ -34,6 +34,14 @@ document.querySelector("#nav-header").addEventListener('mouseout', ()=>{
     
 });
 
+let frete = document.querySelector("#frete-icone");
+frete.addEventListener('click', () =>{
+    document.querySelector('.frete').classList.toggle('close');
+    if(frete.innerHTML =='+')
+        frete.innerHTML = '-';
+    else frete.innerHTML = "+";
+});
+
 document.querySelector("#nav-header").addEventListener('mouseover', ()=>{ 
     document.querySelector('.sub-menu').classList.remove('close'); 
     document.querySelector('#'+selected).classList.add('header-ul-li-hover');  

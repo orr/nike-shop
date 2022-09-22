@@ -471,6 +471,10 @@ button.add:hover{
     font-size: .9rem;
 }
 
+.frete.close{
+    display: none;
+}
+
 .calcular-frete {
     border-top: 1.2px solid #B6B6B6;
     border-bottom: 1px solid #B6B6B6;
