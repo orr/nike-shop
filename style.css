@@ -302,6 +302,10 @@
     width: 100%;
 }
 
+.big-images-responsive {
+    display: none;
+}
+
 .tennis-infos {
     display: flex;
     flex-direction: column;
@@ -786,6 +790,9 @@ button.add:hover{
     .super-header {
         display: none;
     }
+    .main-content {
+        width: 90%;
+    }
     .ofertas-track {
         width: 90%;
         margin-bottom: 3rem;
@@ -801,6 +808,20 @@ button.add:hover{
     }
     .price-wrapper {
         flex-direction: row;
+    }
+    .big-images-responsive {
+        width: 100%;
+        display: flex;
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+    }
+    .big-image-responsive {
+        min-width: 100%;
+        
+    }
+    .big-image-responsive img {
+        width: 100%;
+        object-fit: cover;
     }
 }
 
