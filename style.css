@@ -56,6 +56,14 @@
     position: relative;
 }
 
+.header-img {
+    order:1
+}
+
+#nav-header {
+    order: 2;
+}
+
 .header-ul {
     display: flex;
     gap: 2rem;
@@ -92,6 +100,8 @@
     align-items: center;
     padding-left: .5rem;
     width: 10rem;
+    margin-left: auto;
+    order: 3;
 }
 
 .search-bar:hover {
@@ -130,7 +140,17 @@
 
 .shop-icon {
     width: 26px;
-    height: 26  px;
+    height: 26px;
+    order: 4;
+    margin-left: 1rem;
+}
+
+.menu-icon {
+    width: 26px;
+    height: 26px;
+    margin-left: 1rem;
+    display: none;
+    order: 5;
 }
 
 
@@ -232,7 +252,7 @@
 }
 
 .breadcrumbs ul {
-    width: 65%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     gap: 2rem;
@@ -258,7 +278,7 @@
 }
 
 .main-content {
-    width: 65%;
+    width: 80%;
     margin: 0 auto;
     background-color: #fff;
     display: flex;
@@ -306,6 +326,12 @@
     color: #777676;
     text-decoration: line-through;
     font-weight: 500;
+}
+
+.price-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .product .price {
@@ -523,7 +549,7 @@ button.add:hover{
 }
 
 .also-like {
-    width: 60%;
+    width: 75%;
     margin: 2.5rem auto;
 }
 
@@ -725,4 +751,64 @@ button.add:hover{
     font-size: .75rem;
     text-align: right;
     line-height: 1.4;
+}
+
+@media screen and (max-width: 1200px){
+    .header-ul {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .header {
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: left;
+    }
+    .header-img {
+        margin-right: auto;
+    }
+    .search-bar {
+        order: 6;
+        width: 100%;
+    }
+    .ofertas-track {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .header {
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .super-header {
+        display: none;
+    }
+    .ofertas-track {
+        width: 90%;
+        margin-bottom: 3rem;
+    }
+    .breadcrumbs {
+        display: none;
+    }
+    .big-images {
+        display: none;
+    }
+    .tennis-infos{
+        width: 100%;
+    }
+    .price-wrapper {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .ofertas-track {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px){
 }
