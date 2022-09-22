@@ -65,9 +65,10 @@
 
 .header-ul li{
     padding: .8rem;
+    border-bottom: 2px solid transparent;
 }
 
-.header-ul-li-hover{
+.header-ul li.header-ul-li-hover{
     
     border-bottom: 2px solid black;
 }
@@ -519,4 +520,72 @@ button.add:hover{
 
 .duvidas {
     margin-top: 3rem;
+}
+
+.also-like {
+    width: 60%;
+    margin: 2.5rem auto;
+}
+
+.also-like > h1 {
+    font-size: 1.125em;
+    margin-bottom: 1.5rem;
+}
+
+.like-wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.like-track {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.like-track-wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.like-track-wrapper::before {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: #777676;
+    border-radius: 100%;
+    overflow-x: auto;
+    z-index: 5;
+}
+
+.like-item {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    gap: .2rem
+}
+
+.like-img img {
+    width: 100%;
+}
+
+.like-item h1{
+    font-size: .875rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.like-item p {
+    font-size: .8rem;
+}
+
+.like-item p.old-price {
+    text-decoration: line-through;
+    color: #777676;
 }
