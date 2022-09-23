@@ -25,7 +25,7 @@ html,body {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 20;
+    z-index: 5;
 }
 
 .super-header-left {
@@ -65,8 +65,8 @@ html,body {
     top: 0px;
     left: 0;
     width: 100%;
-    z-index: 20;
-    
+    z-index: 5;
+   
 }
 
 .header-shop-img {
@@ -159,7 +159,7 @@ html,body {
     top: 40px;
     left: 0;
     width: 100%;
-    z-index: 20;
+    z-index: 5;
 }
 
 .header-img {
@@ -887,7 +887,7 @@ button.add:hover{
     height: 100%;
 }
 .mobile-menu {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     width: 100%;
@@ -967,6 +967,7 @@ button.add:hover{
         width: 100%;
         padding-left: 1rem;
         padding-right: 1rem;
+        top: 0px;
     }
     .super-header {
         display: none;
