@@ -1072,14 +1072,14 @@ button.add:hover{
         padding-left: 2rem;
         padding-right: 2rem;
     }
+    .btn-calcular {
+        transform: translateX(-20px);
+    }
 }
 
 @media screen and (max-width: 576px){
     .like-item {
         min-width:  50%;
-    }
-    .input-wrapper {
-        justify-content: initial;
     }
 }
 
@@ -1088,7 +1088,6 @@ button.add:hover{
     #input-frete{
         width: 50%;
     }
-    
     .like-item {
         min-width:  100%;
     }
