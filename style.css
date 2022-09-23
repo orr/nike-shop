@@ -1081,6 +1081,9 @@ button.add:hover{
     .like-item {
         min-width:  50%;
     }
+    .btn-calcular {
+        transform: translateX(-30px);
+    }
 }
 
 
