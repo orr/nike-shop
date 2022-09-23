@@ -1078,6 +1078,9 @@ button.add:hover{
     .like-item {
         min-width:  50%;
     }
+    .input-wrapper {
+        justify-content: initial;
+    }
 }
 
 
@@ -1085,9 +1088,7 @@ button.add:hover{
     #input-frete{
         width: 50%;
     }
-    .input-wrapper {
-        justify-content: initial;
-    }
+    
     .like-item {
         min-width:  100%;
     }
