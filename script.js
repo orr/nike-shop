@@ -143,3 +143,13 @@ let close = document.querySelector(".close-icon");
 close.addEventListener('click', () => {
     document.querySelector(".mobile-menu").classList.toggle('close');
 });
+
+let tamanhos = document.querySelector(".btn-tamanho");
+tamanhos.addEventListener('click', () => {
+    document.querySelector(".tamanhos").classList.toggle('close');
+    if (tamanhos.innerHTML == "Tamanho +") {
+        tamanhos.innerHTML = 'Tamanho -';
+    } else {
+        tamanhos.innerHTML = 'Tamanho +';
+    }
+});
