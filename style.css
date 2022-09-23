@@ -698,7 +698,7 @@ button.add:hover{
     background-color: #777676;
     border-radius: 100%;
     overflow-x: auto;
-    z-index: 5;
+    z-index: 3;
 }
 
 .like-track-wrapper::after {
@@ -711,7 +711,7 @@ button.add:hover{
     background-color: #777676;
     border-radius: 100%;
     overflow-x: auto;
-    z-index: 5;
+    z-index: 3;
 }
 
 .like-item {
@@ -1083,7 +1083,10 @@ button.add:hover{
 
 @media screen and (max-width: 340px){
     #input-frete{
-        width: 80%;
+        width: 50%;
+    }
+    .input-wrapper {
+        justify-content: initial;
     }
     .like-item {
         min-width:  100%;
