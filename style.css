@@ -168,6 +168,7 @@ html,body {
 
 #nav-header {
     order: 2;
+    margin: 0 auto;
 }
 
 .header-ul {
